@@ -1,8 +1,8 @@
 Reflect.defineProperty(Document.prototype, 'domain', {
-	get: () => 'vseigru.net',
+	get: () => 'waflash.vseigru.net',
 });
 Reflect.defineProperty(Document.prototype, 'location', {
-	get: () => 'vseigru.net',
+	get: () => 'waflash.vseigru.net',
 });
 
 const original_src = Reflect.getOwnPropertyDescriptor(Image.prototype, 'src');
