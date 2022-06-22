@@ -7,11 +7,11 @@
 <script src="./hooks.js"></script>
 <script>
 		var gameConfig = {
-			swfUrl: "./wingeria/wingeria.swf"		
-			
+			swfUrl: "https://g.vseigru.net/igra-papy-lui-kafe-krylyshki.swf"		
 		}
 	</script></head>
 <body>
+<a target="_blank" href="https://vseigru.net/" title="Все Игры - Онлайн" id="vse-logo" style="box-shadow:none;width:100px; height:13px;display:block;z-index: 9999999;position:absolute;right:43px;top:3px"><img src="/img/logo.png" width="100" height="13" style="cursor: pointer;" title="" alt="Все Игры - Онлайн"></a>
 <div id="waflashContainer">
 <canvas class="waflashCanvas" id="canvas" tabindex="1"></canvas>
 <div id="waflashStatus" style="display: none;">Playing...</div>
@@ -66,7 +66,7 @@
 		})());
 		import {
 			createWaflash
-		} from './js/waflash-player.min.js';
+		} from './js/waflash-player.min.js?2021052611';
 		createWaflash(gameConfig.swfUrl, window.wafOptions || {});
 	</script>
 </div>
